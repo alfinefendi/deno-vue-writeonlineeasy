@@ -14,5 +14,5 @@
     "autoprefixer": "npm:autoprefixer@10",
     "quill": "npm:quill@2"
   },
-  "nodeModulesDir": true
+  "nodeModulesDir": "auto"
 }
