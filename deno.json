@@ -1,0 +1,18 @@
+{
+  "tasks": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "imports": {
+    "vue": "npm:vue@3",
+    "primevue/": "npm:primevue@4/",
+    "@primeuix/themes/": "npm:@primeuix/themes@1/",
+    "vite": "npm:vite@5",
+    "@vitejs/plugin-vue": "npm:@vitejs/plugin-vue@5",
+    "tailwindcss": "npm:tailwindcss@3",
+    "postcss": "npm:postcss@8",
+    "autoprefixer": "npm:autoprefixer@10",
+    "quill": "npm:quill@2"
+  },
+  "nodeModulesDir": true
+}
