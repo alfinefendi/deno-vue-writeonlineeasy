@@ -4,8 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "dev": "deno task dev:api & deno task dev:vite",
+    "dev:api": "deno run --allow-env --allow-net api/main.ts",
+    "dev:vite": "deno run -A npm:vite",
+    "build": "deno run -A npm:vite build",
+    "server:start": "deno run -A --watch ./api/main.ts",
+    "serve": "deno run build && deno run server:start",
     "preview": "vite preview"
   },
   "dependencies": {
